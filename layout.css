@@ -1,0 +1,257 @@
+<!DOCTYPE>
+element.style {
+}
+html {
+    background-color: #030303;
+}
+body, html {
+    background-color: #f7f7f7;
+	font: Courier_New;
+}
+*, *:before, *:after {
+    box-sizing: border-box-sizing;
+}
+html[Attributes Style] {
+    -webkit-locale: "en";
+}
+user agent stylesheet
+html {
+    display: block;
+	width: 50px
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}body {
+
+	font-size: small;
+	font-family: verdana, lato, sans-serif;
+	margin: 30;
+	padding: 0 0 10px 10px;
+	border-left:15px solid #dddddd;
+border-top: 15px solid #dddddd;
+border-right: 15px solid #555555;
+border-bottom: 15px solid #555555;
+font: Courier_New; 
+background-image: url("http://3.bp.blogspot.com/-8cJ83kavo9s/TjSCeMa-pdI/AAAAAAAACZc/bjR6P55WvbY/s1600/Minimalistiv_HD_Wallpaper_Barcot.png");
+
+	}
+	
+h1 {
+	color: pink;
+	font-size: 35px	;
+	padding: 40px 0 40px 40px;
+	margin: 50px;
+	text-align: center;
+	font: CaptionText;
+	}
+	
+h2 {
+	font-size:20px;
+	color: #21baaa3;
+	font: Courier_New ;
+	text-align: center;
+border-width: medium;}
+
+h5 {
+	font-size: 30px;
+	color: red;
+	font: Courier;
+	text-align: center;
+}
+	
+div#navigation h2 {
+	color: #00bf7f;
+	font: Courier_New;
+	size: 50px 50px;
+	
+	}
+
+div#container {
+	background-color: #A0A0A0;
+	background-image: url("images/orange_back.jpg ");
+	width: 1000px;
+	margin: 0 auto;
+	}
+	
+div#header {
+	background-color: black;
+	margin: 15px;
+	padding: 20px;
+	}
+	
+div#navigation {
+	background-color: #84f0ff;
+	width: 180px;
+	float: left;
+	padding: 0 0 15px 15px;
+	margin: 0;
+	}
+div#content {
+	background-color: white;
+	width: 980px;
+	float: left;
+	padding: 0 10px 0 10px;
+	margin: 0;
+	}
+
+div#content img {
+	 
+	}
+	
+a 	{
+	text-decoration: none;
+	display: block;
+	padding: 4px 0 4px 0;
+	font-weight: bold;
+	}
+	
+a:hover {
+	background-color: #eeeeee;
+	}
+	
+div#footer {
+	background-color: #A0A0A0;
+	clear: both;
+	}
+	
+.css-typing p {
+  border-right: .15em solid orange;
+  font-family: "Courier";
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing p:nth-child(1) {
+  width: 7.3em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 11.5em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 7.3em;
+  opacity: 0;
+  -webkit-animation: type3 4s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+	
+	a:hover { 
+  background-color: yellow;
+}
+ 
+ div#hr {
+    border: none;
+    height: 5px;
+    color: #darkgrey; 
+    background-color: #grey;
+}
